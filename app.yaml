@@ -1,0 +1,26 @@
+application: gaesql
+version: 7
+runtime: python
+api_version: 1
+
+handlers:
+- url: /db
+  static_dir: db
+- url: /images
+  static_dir: images
+- url: /js
+  static_dir: js
+- url: /locale
+  static_dir: locale
+- url: /styles
+  static_dir: styles
+- url: /about
+  static_dir: about
+- url: /favicon.ico
+  static_files: images/favicon.ico
+  upload: images/favicon.ico  
+- url: /robots.txt
+  static_files: about/robots.txt
+  upload: about/robots.txt  
+- url: .*
+  script: main.py

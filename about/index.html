@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="../styles/doc.css" type="text/css" />
+	<title>GAE SQL Designer - Documentation</title>
+</head>
+<body>
+<h1>GAE SQL Designer - Documentation</h1>
+
+<h2>Table of contents</h2>
+
+<ul>
+	<li><a href="#usage">Usage</a>
+		<ul>
+			<li><a href="#browsers">Browsers</a></li>
+			<li><a href="#basics">Basics</a></li>
+		</ul>
+	</li>
+	<li><a href="#contact">Contact</a></li>
+	<li><a href="#changelog">Changelog</a></li>
+</ul>
+
+<hr/>
+
+<h2><a name="usage">Usage</a></h2>
+<p>Hello and welcome to GAE SQL Designer documentation. This page will hopefully help you with understanding 
+how GAE SQL Designer works and how can it be tailored to suit your needs.</p>
+
+<h3><a name="browsers">Browsers</a></h3>
+
+<p>GAE SQL Designer was tested in the following browsers:</p>
+
+<ul>
+	<li>Firefox 2.x</li>
+	<li>Firefox 3.x</li>
+	<li>Internet Explorer 6</li>
+	<li>Internet Explorer 7</li>
+	<li>Internet Explorer 8</li>
+	<li>Safari 3</li>
+	<li>Opera 9.x</li>
+	<li>Konqueror 3.5.x</li>
+</ul>
+
+<p>Konqueror is the only browser (from this list) which lacks support for Smooth connectors and XSLT 
+transformations (generation of SQL scripts).</p>
+
+<h3><a name="basics">Basics</a></h3>
+
+<p>The application allows you to:</p>
+
+<ol>
+	<li>Draw E-R designs</li>
+	<li>Edit tables and rows</li>
+	<li>Manage keys</li>
+	<li>Create relations (FK constraints)</li>
+	<li>Save &amp; Load designs</li>
+	<li>Import DB schemas</li>
+</ol>
+
+<p>Most commands are intuitively available from the right sidebar. Some tasks are described below.</p>
+
+<p>To <strong>drag a table</strong>, press mouse button while pointing at table header. You can then move the 
+table around the canvas.</p>
+
+<p>To <strong>edit table properties</strong>, either double-click its heading, or select it and 
+then press 'Edit table' button in sidebar.</p>
+
+<p>To <strong>edit field properties</strong>, either double-click it, or select it and 
+then press 'Edit field' button in sidebar.</p>
+
+<p>To <strong>manage keys for a table</strong>, select a table and press 'Edit keys' button in sidebar.</p>
+
+<p>To <strong>draw a connector (relation)</strong>, first select a field which forms a Primary Key. Then click 'Create foreign key' button 
+in sidebar and click target table's heading. New field and relation will be created.</p>
+
+<p>To <strong>perform any kind of save/load/export/import task</strong>, press the 'Save/Load' button in sidebar. 
+A dialog window will appear, allowing you to perform clientside or serverside tasks.</p>
+
+<hr/>
+<h2><a name="contact">Contact</a></h2>
+
+<p>This Ported to work on Google Appengine by <a href="http://jasonwmiller.info">Jason W. Miller</a>, &copy<br />
+Based Heavly on WWW SQL Designer by <a href="http://ondras.zarovi.cz/">Ondrej Zara</a>, &copy; 2005-2008. 
+It is released under GNU GPL licence.</p>
+</body>
